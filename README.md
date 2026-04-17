@@ -43,10 +43,10 @@ uv run wercalc.py reference.txt hypothesis.txt --metric all
 ### Text Cleaning Options
 ```bash
 # Default: cleaning and aggressive cleaning enabled
-uv run wercalc.py reference.txt hypothesis.txt --verbose
+uv run wercalc.py internal_cleaned.txt internal_raw.txt --v -m all
 
 # Disable all cleaning (compare raw text)
-uv run wercalc.py reference.txt hypothesis.txt --no-clean
+uv run wercalc.py internal_cleaned.txt internal_raw.txt --no-clean
 ```
 
 ## Text Cleaning Features
